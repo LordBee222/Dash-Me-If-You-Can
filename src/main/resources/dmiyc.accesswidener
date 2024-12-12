@@ -1,0 +1,13 @@
+accessWidener v2 named
+accessible class net/minecraft/enchantment/EnchantmentHelper$Consumer
+accessible class net/minecraft/enchantment/EnchantmentHelper$ContextAwareConsumer
+accessible class net/minecraft/client/gui/hud/InGameHud$HeartType
+
+accessible method net/minecraft/enchantment/EnchantmentHelper forEachEnchantment (Lnet/minecraft/item/ItemStack;Lnet/minecraft/enchantment/EnchantmentHelper$Consumer;)V
+accessible method net/minecraft/enchantment/EnchantmentHelper forEachEnchantment (Lnet/minecraft/entity/LivingEntity;Lnet/minecraft/enchantment/EnchantmentHelper$ContextAwareConsumer;)V
+accessible field net/minecraft/client/option/KeyBinding timesPressed I
+accessible field net/minecraft/entity/LivingEntity jumping Z
+accessible method net/minecraft/entity/LivingEntity getJumpVelocity ()F
+accessible method net/minecraft/client/gui/hud/InGameHud renderOverlay (Lnet/minecraft/client/gui/DrawContext;Lnet/minecraft/util/Identifier;F)V
+accessible method net/minecraft/client/gui/hud/InGameHud$HeartType fromPlayerState (Lnet/minecraft/entity/player/PlayerEntity;)Lnet/minecraft/client/gui/hud/InGameHud$HeartType;
+

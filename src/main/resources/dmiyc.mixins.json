@@ -1,0 +1,27 @@
+{
+  "required": true,
+  "package": "net.beelabs.dmiyc.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "LivingEntityMixin",
+    "bullrush.ItemMixin",
+    "permafrost.CrossbowItemMixin",
+    "permafrost.ItemMixin",
+    "permafrost.PermafrostCrossbowMixin",
+    "permafrost.PersistentProjectileEntityMixin",
+    "permafrost.RangedWeaponItemMixin",
+    "permafrost.strongFreeze.PlayerEntityMixin",
+    "springstep.ExplodeEnchantmentEffectMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "accessor.InGameHudAccessor",
+    "allowduplicatekeybindings.ControlsListWidgetKeyBindingEntryMixin",
+    "allowduplicatekeybindings.GameOptionsMixin",
+    "allowduplicatekeybindings.KeyBindingMixin",
+    "permafrost.strongFreeze.InGameHudHeartTypeMixin",
+    "permafrost.strongFreeze.InGameHudMixin"
+  ]
+}

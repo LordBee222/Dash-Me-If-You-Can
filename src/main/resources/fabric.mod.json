@@ -1,0 +1,52 @@
+{
+	"schemaVersion": 1,
+	"id": "dmiyc",
+	"version": "${version}",
+	"name": "Dash Me If You Can",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/dmiyc/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.beelabs.dmiyc.common.DMIYC"
+		],
+		"fabric-datagen": [
+			"net.beelabs.dmiyc.data.DMIYCDataGenerator"
+		],
+		"cardinal-components-entity": [
+			"net.beelabs.dmiyc.common.init.DMIYCComponents"
+		],
+		"client": [
+			"net.beelabs.dmiyc.client.DMIYCClient"
+		]
+	},
+	"mixins": [
+		"dmiyc.mixins.json"
+	],
+	"accessWidener": "dmiyc.accesswidener",
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.3",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	},
+	"custom": {
+		"cardinal-components": [
+			"dmiyc:bullrush",
+			"dmiyc:springstep",
+			"dmiyc:strong_frozen",
+			"dmiyc:volley"
+		]
+	}
+}

@@ -1,0 +1,40 @@
+{
+  "anvil_cost": 2,
+  "description": {
+    "translate": "enchantment.dmiyc.volley"
+  },
+  "effects": {
+    "dmiyc:volley": {
+      "hit_cooldown": {
+        "type": "minecraft:add",
+        "value": {
+          "type": "minecraft:linear",
+          "base": 30.0,
+          "per_level_above_first": 30.0
+        }
+      },
+      "hit_strength": {
+        "type": "minecraft:add",
+        "value": {
+          "type": "minecraft:linear",
+          "base": 1.25,
+          "per_level_above_first": 1.25
+        }
+      }
+    }
+  },
+  "max_cost": {
+    "base": 25,
+    "per_level_above_first": 7
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 8
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/mace",
+  "weight": 5
+}
